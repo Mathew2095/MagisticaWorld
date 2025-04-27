@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Волшебная шляпа -->
+  <path d="M16 5L8 12L6 22L26 22L24 12L16 5Z" fill="#1a237e" stroke="#0d1244" stroke-width="1" />
+  <path d="M8 12L24 12L16 5L8 12Z" fill="#283593" stroke="#0d1244" stroke-width="0.5" />
+  <path d="M7 17L25 17L24 12L8 12L7 17Z" fill="#303f9f" stroke="#0d1244" stroke-width="0.5" />
+  <path d="M6 22L26 22L25 17L7 17L6 22Z" fill="#1a237e" stroke="#0d1244" stroke-width="0.5" />
+  <rect x="9" y="17" width="14" height="2" fill="#ff9800" stroke="#e65100" stroke-width="0.5" />
+</svg>
