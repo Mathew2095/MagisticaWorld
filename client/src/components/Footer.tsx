@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Column 1 */}
           <div>
-            <h3 className="text-xl font-cinzel font-bold mb-6 text-primary-light">Магистика</h3>
-            <p className="opacity-80 mb-6">
+            <h3 className="text-xl font-playfair font-bold mb-6 magical-text">Магистика</h3>
+            <p className="opacity-80 mb-6 font-montserrat leading-relaxed">
               Откройте для себя мир магии, тайн и увлекательных приключений в уникальной вселенной Магистики.
             </p>
             <div className="flex space-x-4">
@@ -37,21 +37,21 @@ const Footer = () => {
           
           {/* Column 2 */}
           <div>
-            <h3 className="text-lg font-cinzel font-bold mb-6 text-light">Навигация</h3>
+            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Навигация</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="/">
-                  <a className="text-light-gray hover:text-primary-light transition duration-300">О нас</a>
+                  <span className="text-light-gray hover:text-primary-light transition duration-300 cursor-pointer">О нас</span>
                 </Link>
               </li>
               <li>
                 <Link href="/rules">
-                  <a className="text-light-gray hover:text-primary-light transition duration-300">Правила</a>
+                  <span className="text-light-gray hover:text-primary-light transition duration-300 cursor-pointer">Правила</span>
                 </Link>
               </li>
               <li>
                 <Link href="/support">
-                  <a className="text-light-gray hover:text-primary-light transition duration-300">Поддержка</a>
+                  <span className="text-light-gray hover:text-primary-light transition duration-300 cursor-pointer">Поддержка</span>
                 </Link>
               </li>
               <li>
@@ -65,7 +65,7 @@ const Footer = () => {
           
           {/* Column 3 */}
           <div>
-            <h3 className="text-lg font-cinzel font-bold mb-6 text-light">Ресурсы</h3>
+            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Ресурсы</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-light-gray hover:text-primary-light transition duration-300">Руководство новичка</a></li>
               <li><a href="#" className="text-light-gray hover:text-primary-light transition duration-300">База знаний</a></li>
@@ -77,7 +77,7 @@ const Footer = () => {
           
           {/* Column 4 */}
           <div>
-            <h3 className="text-lg font-cinzel font-bold mb-6 text-light">Контакты</h3>
+            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Контакты</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
                 <i className="fas fa-envelope text-primary-light mr-3"></i>
