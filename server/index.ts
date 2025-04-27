@@ -58,7 +58,7 @@ app.use((req, res, next) => {
 
   // Use environment port variable (for Railway and other hosting) or fallback to port 5000 locally
   // this serves both the API and the client
-  const port = process.env.PORT ? parseInt(process.env.PORT) : 5000;
+  const port = process.env.PORT ? parseInt(process.env.PORT) : 8080;
   server.listen({
     port,
     host: "0.0.0.0",
