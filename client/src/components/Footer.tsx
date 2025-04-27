@@ -37,7 +37,7 @@ const Footer = () => {
           
           {/* Column 2 */}
           <div>
-            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Навигация</h3>
+            <h3 className="text-lg font-poppins font-bold mb-6 text-light">Навигация</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="/">
@@ -65,7 +65,7 @@ const Footer = () => {
           
           {/* Column 3 */}
           <div>
-            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Ресурсы</h3>
+            <h3 className="text-lg font-poppins font-bold mb-6 text-light">Ресурсы</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-light-gray hover:text-primary-light transition duration-300">Руководство новичка</a></li>
               <li><a href="#" className="text-light-gray hover:text-primary-light transition duration-300">База знаний</a></li>
@@ -77,7 +77,7 @@ const Footer = () => {
           
           {/* Column 4 */}
           <div>
-            <h3 className="text-lg font-playfair font-bold mb-6 text-light">Контакты</h3>
+            <h3 className="text-lg font-poppins font-bold mb-6 text-light">Контакты</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
                 <i className="fas fa-envelope text-primary-light mr-3"></i>
