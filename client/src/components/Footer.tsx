@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Column 1 */}
           <div>
-            <h3 className="text-xl font-playfair font-bold mb-6 magical-text">Магистика</h3>
+            <h3 className="text-xl font-poppins font-bold mb-6 magical-text">Магистика</h3>
             <p className="opacity-80 mb-6 font-montserrat leading-relaxed">
               Откройте для себя мир магии, тайн и увлекательных приключений в уникальной вселенной Магистики.
             </p>

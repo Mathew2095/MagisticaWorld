@@ -16,7 +16,7 @@ const RulesSection = ({ showFullButton = true }: RulesSectionProps) => {
       <div className="container mx-auto">
         <FadeIn>
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-4 magical-text">Правила</h2>
+            <h2 className="text-3xl md:text-4xl font-poppins font-bold mb-4 magical-text">Правила</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary-dark to-primary-light mx-auto"></div>
             <p className="mt-6 max-w-2xl mx-auto opacity-90 font-montserrat leading-relaxed">
               Чтобы сохранить гармонию и безопасность в мире Магистики, мы просим всех участников соблюдать следующие правила:

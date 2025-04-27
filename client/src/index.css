@@ -110,6 +110,16 @@
   font-family: 'Playfair Display', serif;
 }
 
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.01em;
+}
+
 /* Эффект для магического заголовка */
 .magical-text {
   background: linear-gradient(120deg, hsl(var(--primary-light)), #ffffff);
@@ -117,8 +127,9 @@
   background-clip: text;
   color: transparent;
   position: relative;
-  text-shadow: 0 5px 10px rgba(123, 44, 191, 0.2);
+  text-shadow: 0 5px 15px rgba(123, 44, 191, 0.25);
   letter-spacing: 0.02em;
+  font-weight: 600;
 }
 
 /* Icon styles */

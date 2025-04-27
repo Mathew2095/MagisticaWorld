@@ -18,7 +18,7 @@ const CallToAction = () => {
             <div className="icon-circle mx-auto mb-8 text-2xl">
               <i className="fas fa-wand-magic-sparkles"></i>
             </div>
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6 magical-text animate-pulse-slow">
+            <h2 className="text-3xl md:text-4xl font-poppins font-bold mb-6 magical-text animate-pulse-slow">
               Готовы начать свое магическое путешествие?
             </h2>
             <p className="text-xl mb-10 opacity-90 font-montserrat">
