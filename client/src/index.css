@@ -73,16 +73,23 @@
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground overflow-x-hidden dark;
+    @apply antialiased bg-background text-foreground overflow-x-hidden dark;
+    font-family: 'Montserrat', sans-serif;
     background-color: #121212;
     background-image: 
       radial-gradient(circle at 20% 35%, rgba(123, 44, 191, 0.15) 0%, transparent 50%),
       radial-gradient(circle at 75% 75%, rgba(157, 78, 221, 0.1) 0%, transparent 50%);
     background-attachment: fixed;
+    line-height: 1.6;
   }
 
   html {
     scroll-behavior: smooth;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+    letter-spacing: 0.015em;
   }
 }
 
@@ -93,6 +100,22 @@
 
 .font-raleway {
   font-family: 'Raleway', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Icon styles */
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(123, 44, 191, 0.2);
+  color: hsl(273, 90%, 74%);
+  width: 3rem;
+  height: 3rem;
 }
 
 /* Custom Animations */
