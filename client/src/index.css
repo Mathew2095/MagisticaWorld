@@ -106,6 +106,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Эффект для магического заголовка */
+.magical-text {
+  background: linear-gradient(120deg, hsl(var(--primary-light)), #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  text-shadow: 0 5px 10px rgba(123, 44, 191, 0.2);
+  letter-spacing: 0.02em;
+}
+
 /* Icon styles */
 .icon-circle {
   display: flex;
