@@ -12,11 +12,11 @@ const FeatureCard = ({ icon, title, description, delay = 0 }: FeatureCardProps) 
   return (
     <FadeIn delay={delay}>
       <div className="bg-[#1E1E1E] rounded-lg p-6 shadow-lg card-hover">
-        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6 mx-auto text-2xl text-primary-light">
+        <div className="icon-circle w-16 h-16 mx-auto mb-6 text-2xl">
           {getIconComponent(icon)}
         </div>
         <h3 className="text-xl font-cinzel font-semibold mb-4 text-center text-light">{title}</h3>
-        <p className="text-center text-light-gray opacity-80">
+        <p className="text-center text-light-gray opacity-80 font-montserrat">
           {description}
         </p>
       </div>

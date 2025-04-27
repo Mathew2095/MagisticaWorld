@@ -70,19 +70,19 @@ const Header = () => {
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} pt-4 pb-2 animate-fadeIn`}>
           <nav className="flex flex-col space-y-4">
             <Link href="/">
-              <a className={`text-light hover:text-primary-light transition duration-300 py-2 border-b border-primary-dark/30 ${location === '/' ? 'text-primary-light' : ''}`}>
+              <span className={`text-light hover:text-primary-light transition duration-300 py-2 border-b border-primary-dark/30 block ${location === '/' ? 'text-primary-light' : ''}`}>
                 О нас
-              </a>
+              </span>
             </Link>
             <Link href="/rules">
-              <a className={`text-light hover:text-primary-light transition duration-300 py-2 border-b border-primary-dark/30 ${location === '/rules' ? 'text-primary-light' : ''}`}>
+              <span className={`text-light hover:text-primary-light transition duration-300 py-2 border-b border-primary-dark/30 block ${location === '/rules' ? 'text-primary-light' : ''}`}>
                 Правила
-              </a>
+              </span>
             </Link>
             <Link href="/support">
-              <a className={`text-light hover:text-primary-light transition duration-300 py-2 ${location === '/support' ? 'text-primary-light' : ''}`}>
+              <span className={`text-light hover:text-primary-light transition duration-300 py-2 block ${location === '/support' ? 'text-primary-light' : ''}`}>
                 Поддержка
-              </a>
+              </span>
             </Link>
           </nav>
         </div>

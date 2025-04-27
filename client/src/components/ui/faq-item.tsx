@@ -15,12 +15,14 @@ const FAQItem = ({ question, answer }: FAQItemProps) => {
         className="flex justify-between items-center p-4 rounded-lg bg-[#121212]/70 hover:bg-[#121212]/90 transition duration-300"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h4 className="font-semibold text-light">{question}</h4>
-        <motion.i
+        <h4 className="font-semibold text-light font-montserrat">{question}</h4>
+        <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3 }}
-          className="fas fa-chevron-down text-primary-light"
-        ></motion.i>
+          className="w-8 h-8 flex items-center justify-center rounded-full bg-primary/10"
+        >
+          <i className="fas fa-chevron-down text-primary-light"></i>
+        </motion.div>
       </div>
       
       <AnimatePresence>
@@ -33,7 +35,7 @@ const FAQItem = ({ question, answer }: FAQItemProps) => {
             className="overflow-hidden"
           >
             <div className="p-4 bg-[#1E1E1E]/70 rounded-b-lg">
-              <p className="opacity-90">{answer}</p>
+              <p className="opacity-90 font-montserrat leading-relaxed">{answer}</p>
             </div>
           </motion.div>
         )}

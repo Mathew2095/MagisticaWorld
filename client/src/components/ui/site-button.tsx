@@ -21,7 +21,7 @@ const SiteButton = ({
   external = false
 }: SiteButtonProps) => {
   const buttonClasses = cn(
-    "btn-magic text-light font-semibold py-3 px-6 rounded-md shadow-lg inline-flex items-center justify-center",
+    "btn-magic text-light font-semibold py-3 px-6 rounded-md shadow-lg inline-flex items-center justify-center font-montserrat",
     className
   );
   
@@ -34,7 +34,7 @@ const SiteButton = ({
         target={external ? "_blank" : undefined}
         rel={external ? "noopener noreferrer" : undefined}
       >
-        {icon && <span className="mr-2">{icon}</span>}
+        {icon && <span className="mr-3 w-5 h-5 flex items-center justify-center">{icon}</span>}
         {children}
       </a>
     );
@@ -46,7 +46,7 @@ const SiteButton = ({
       onClick={onClick} 
       className={buttonClasses}
     >
-      {icon && <span className="mr-2">{icon}</span>}
+      {icon && <span className="mr-3 w-5 h-5 flex items-center justify-center">{icon}</span>}
       {children}
     </button>
   );
